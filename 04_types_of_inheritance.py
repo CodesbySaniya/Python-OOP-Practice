@@ -28,3 +28,35 @@ class Rabbit(Prey,Predator):
 s1 = Rabbit("bunny",True)
 s1.show()
 s1.show1()
+
+
+#multilevel inheritance
+#C(B) -> B(A) -> A
+# Employee → name, salary, work()
+# Manager → manage_team()
+# ProjectManager → assign_project()
+
+
+class Employee:
+  def __init__(self,name,salary):
+    self.name = name
+    self.salary = salary
+
+  def work(self):
+    print("--Employee Details--")
+    print(f"Employee name: {self.name}")
+    print(f"Employee salary: {self.salary}")
+
+class Manager(Employee):
+  def manage_team(self):
+    print(f"{self.name} manage the team")
+
+class ProjectManager(Manager):
+  def assign_project(self):
+    print(f"{self.name} will assign the project")
+
+p1 = ProjectManager("Saniya", 80000)
+p1.work()
+p1.manage_team()
+p1.assign_project()
+  
