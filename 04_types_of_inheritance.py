@@ -24,11 +24,6 @@ class Predator:
 class Rabbit(Prey,Predator):
  print("animals")
 
-# class Hawk:
-#   pass
-
-# class Fish:
-#   pass
 
 s1 = Rabbit("bunny",True)
 s1.show()
