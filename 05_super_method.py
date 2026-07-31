@@ -15,7 +15,7 @@ class Circle(Shape):
     self.radius = radius
 
 
-class Sqaure(Shape):
+class Square(Shape):
   def __init__(self,color,is_filled,width):
       super().__init__(color , is_filled) 
       self.width = width
@@ -30,6 +30,16 @@ class Triangle(Shape):
 
 
 circle = Circle("red",True,8)
+
+square = Square("blue",False,8)
+
+
 print(circle.color)
 print(circle.is_filled)
 print(circle.radius)
+
+
+
+print(square.color)
+print(square.is_filled)
+print(square.width)
