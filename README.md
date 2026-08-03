@@ -14,9 +14,10 @@ I created this repository to strengthen my understanding of OOP concepts before 
 - ✅ Inheritance
 - ✅ Types of Inheritance
 - ✅ `super()` Function
-- ✅ `super()` Method
+- ✅ Calling Parent Methods using `super()`
 - ✅ Method Overriding
 - ✅ Polymorphism
+- ✅ Duck Typing
 - ✅ Abstract Classes & Abstract Methods
 
 ---
@@ -32,7 +33,7 @@ I created this repository to strengthen my understanding of OOP concepts before 
 | `05_super.py` | Understanding `super()` |
 | `05_super_method.py` | Calling Parent Methods using `super()` |
 | `06_overriding.py` | Method Overriding |
-| `07_polymorphism.py` | Polymorphism |
+| `07_polymorphism.py` | Polymorphism & Duck Typing |
 | `08_abstract_method.py` | Abstract Classes & Abstract Methods |
 
 ---
@@ -41,16 +42,16 @@ I created this repository to strengthen my understanding of OOP concepts before 
 
 This repository is part of my Python learning journey.
 
-My goal is to:
-- Build strong OOP fundamentals
-- Write clean and readable Python code
-- Prepare for Machine Learning and AI development
+My goals are to:
+- Build strong Object-Oriented Programming fundamentals.
+- Write clean, reusable, and maintainable Python code.
+- Prepare for Machine Learning and AI development.
 
 ---
 
 ## 🚀 Next Learning Goals
 
-- APIs (Flask / FastAPI)
+- REST APIs (Flask / FastAPI)
 - NumPy
 - Pandas
 - Matplotlib
@@ -73,4 +74,4 @@ My goal is to:
 
 ---
 
-⭐ Feel free to explore the repository and follow my learning journey!
+⭐ This repository documents my OOP learning journey and will continue to grow as I explore more advanced Python concepts.
